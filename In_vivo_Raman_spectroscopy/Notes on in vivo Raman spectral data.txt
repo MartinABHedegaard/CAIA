@@ -1,0 +1,22 @@
+The in vivo Raman spectral dataset from days -1, 4, 7, 10, and 13 found in folders with
+corresponding names are comprised of individual MATLAB Data files. 
+These files are named according to mouse ID, left/right hindlimb, and reflection/transmission mode. 
+
+For example the file m2398_L_r.mat means that this file contains the Raman data acquired from mouse 
+with ID number 2398 at the left (L) hindlimb, and in reflection mode (r).
+
+Likewise the file m2402_R_t.mat means that this file contains the Raman data acquired from mouse 
+with ID number 2402 at the right (R) hindlimb, and in transmission mode (t).
+
+The fiber-optic probe background spectrum is found in the MATLAB Data file: 
+probe_spectrum_r_20mW_60s_2acc.mat
+
+Raman spectra of a polystyrene reference sample (Bruker) used to check for spectral drift are
+found in each folder corresponding to the different timepoints. These polystyrene spectra are
+comprised of MATLAB Data files with the file names polystyrene_50mW_t_5s_2acc.mat and 
+polystyrene_50mW_r_5s_2acc.mat for transmission and reflection mode measurements respectively.
+
+All individual Raman spectral MATLAB data files found in the folder In_vivo_Raman_spectroscopy and 
+subfolders contain two replicate spectra as vectors in two rows in a data matrix. 
+The two replicate spectra allows for the removal of cosmic rays using methods that required two
+replicate measurements. 
