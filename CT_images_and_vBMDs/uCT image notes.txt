@@ -1,0 +1,6 @@
+uCT images of left-side hindlimbs
+
+Sample name 	mouse ID	Group
+ND1790		2401		CAIA, Asymptomatic
+ND1795		2406		Saline, Control
+ND1800		2411		CAIA, Symptomatic
